@@ -1,0 +1,164 @@
+/* universal styles */
+
+html {
+    font-size:16px;
+}
+
+a {
+    text-decoration: none;
+    color: #63666A;
+}
+a:hover {
+    color: #cfcfcf;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #a1c3d4;
+    text-decoration: none;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    margin: 1.5rem;
+}
+/*nav section*/
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.nav-container {
+    position: relative;
+    display: flex;
+    background-color:#006ba1;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.nav li {
+    display: inline;
+    font-family: poppins, sans-serif;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: right;
+    color: white;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: #cfcfcf;
+    text-decoration: underline;
+}
+
+li a:visited {
+    color: #a1c3d4;
+    text-decoration: none;
+}
+/*title section*/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 1.5rem 1.5rem;
+    border-bottom: 2px solid #63666A;
+}
+
+#header-title {
+    font-family: bitter, serif;
+    font-size: 45px;
+    color: #63666A;
+    
+}
+
+#header-subtitle {
+    font-family: Parisienne, display;
+    font-size: 3rem;
+    color: #006ba1;
+}
+
+/*about section*/
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    font-family: poppins, sans-serif;
+    margin: 1.5rem 1.5rem;
+    border-bottom: 2px solid #63666A;
+}
+
+#hello {
+    font-family: Parisienne, display;
+    color: #728a96;
+}
+
+/*info*/
+.information-container {
+    margin: .5rem 4.5rem 1.5rem 4.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 2px solid #63666A;
+}
+
+.panel {
+    margin: 1rem 1.5rem;
+}
+ .panel h3 {
+    font-family: bitter, serif;
+    text-align: center;
+ }
+.panel img {
+    height: 300px;
+    width: 250px;
+}
+
+/*updates*/
+.updates-container {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #63666A;
+}
+
+.updates h2 {
+    font-family: bitter, serif;
+    color: #728a96;
+    text-align: center;
+    
+}
+
+/*footer*/
+.footer-container {
+    height: 2%;
+    display: flex;
+    align-items: center; 
+}
+
+.contact-box {
+    background-color:#006ba1;
+    color: white;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.contact-box p {
+    display: inline;
+    font-family: poppins, sans-serif;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
